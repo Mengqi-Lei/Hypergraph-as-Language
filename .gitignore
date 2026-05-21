@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local environments
+.venv/
+env/
+wandb/
+
+# Large assets
+Hyper-Align/checkpoints/
+Hyper-Align/results/
+Hyper-Align/logs/
+HyperAlign-Bench/dataset/
+*.pt
+*.bin
+*.safetensors
+*.jsonl
+*.zip
+*.tar
+*.tar.gz
