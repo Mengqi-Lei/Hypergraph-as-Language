@@ -132,6 +132,8 @@ The default training recipe uses:
 - `NUM_EPOCHS=2`
 - `BATCH_SIZE=8`
 - `GRAD_ACCUM=2`
+- `LAMBDA_ORD=0.01`
+- `LAMBDA_REL=0.01`
 - `USE_DEEPSPEED=1`
 
 Checkpoints are saved under:

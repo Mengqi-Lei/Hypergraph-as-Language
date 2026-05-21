@@ -50,5 +50,8 @@ is `vc` or `hec`.
 - `MAX_MEMBERS_PER_HYPEREDGE=8`
 - `OVERVIEW_HOPS=2`
 - `OVERVIEW_ORDER_BUCKETS=4`
+- `LAMBDA_ORD=0.01`
+- `LAMBDA_REL=0.01`
 
-The main checkpoint was trained with `lambda_ord=0.0` and `lambda_rel=0.0`.
+Set `LAMBDA_ORD=0.0` and `LAMBDA_REL=0.0` only when explicitly disabling
+the auxiliary consistency losses.

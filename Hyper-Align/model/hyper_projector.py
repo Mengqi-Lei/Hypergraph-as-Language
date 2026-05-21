@@ -157,8 +157,8 @@ class HigherOrderTypedProjector(nn.Module):
             nn.Linear(self.state_dim, relation_num_classes),
         )
 
-        self.lambda_ord = 0.0
-        self.lambda_rel = 0.0
+        self.lambda_ord = 0.01
+        self.lambda_rel = 0.01
         self.consistency_scale = 0.0
 
     def set_consistency_weights(self, lambda_ord: float, lambda_rel: float) -> None:
