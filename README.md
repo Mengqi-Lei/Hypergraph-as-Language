@@ -7,6 +7,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="assets/repo_intro.jpg" alt="Hypergraph as Language overview" width="95%">
+</p>
+
 ## Overview 🔍
 
 This repository provides the implementation of **Hyper-Align** and **HyperAlign-Bench**. The project follows the paper's **Hypergraph as Language** perspective: instead of flattening a hypergraph into pairwise edges or only rewriting it into text, Hyper-Align makes query-object-centered high-order association structures directly consumable by large language models.
