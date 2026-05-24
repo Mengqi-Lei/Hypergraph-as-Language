@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/repo_intro.jpg" alt="Hypergraph as Language overview" width="95%">
+  <img src="assets/repo_intro.png" alt="Hypergraph as Language overview" width="95%">
 </p>
 
 ## Overview 🔍
