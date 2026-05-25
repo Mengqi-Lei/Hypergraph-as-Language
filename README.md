@@ -5,6 +5,12 @@
   <a href="https://arxiv.org/abs/2605.21858">
     <img src="https://img.shields.io/badge/arXiv-2605.21858-b31b1b.svg" alt="arXiv:2605.21858">
   </a>
+  <a href="https://huggingface.co/MengqiLei/hyper-align">
+    <img src="https://img.shields.io/badge/Hugging%20Face-Model-yellow.svg" alt="Hugging Face model">
+  </a>
+  <a href="https://huggingface.co/datasets/MengqiLei/hyperalign-bench">
+    <img src="https://img.shields.io/badge/Hugging%20Face-Dataset-yellow.svg" alt="Hugging Face dataset">
+  </a>
 </p>
 
 <p align="center">
@@ -74,7 +80,7 @@ If your CUDA or driver version differs, install the matching PyTorch build befor
 
 ### 2. Weight Preparation
 
-Download the Hyper-Align checkpoint from the GitHub Releases link listed in [DOWNLOADS.md](DOWNLOADS.md). Base LLMs and embedding models should be obtained from their official pages, not from this project.
+Download the Hyper-Align checkpoint from the Hugging Face model link listed in [DOWNLOADS.md](DOWNLOADS.md). Base LLMs and embedding models should be obtained from their official pages, not from this project.
 
 Place the Hyper-Align checkpoint at:
 
@@ -91,7 +97,7 @@ For training and evaluation with the released data bundle, only the base LLM is 
 
 ### 3. Data Preparation
 
-Download the full HyperAlign-Bench data bundle from the Google Drive or Baidu Netdisk link in [DOWNLOADS.md](DOWNLOADS.md), then extract it so the dataset directory is organized as:
+Download the full HyperAlign-Bench data bundle from the Hugging Face dataset link in [DOWNLOADS.md](DOWNLOADS.md), then extract it so the dataset directory is organized as:
 
 ```text
 HyperAlign-Bench/dataset/

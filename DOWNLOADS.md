@@ -1,12 +1,12 @@
 # Downloads
 
-Large assets are kept out of git. The Hyper-Align checkpoint is distributed through GitHub Releases. HyperAlign-Bench data is distributed as a full data bundle through Google Drive and Baidu Netdisk. Base LLMs and embedding models are not mirrored by us; use their official sources.
+Large assets are kept out of git. The Hyper-Align checkpoint is distributed through Hugging Face, and HyperAlign-Bench is distributed as a Hugging Face dataset. Base LLMs and embedding models are not mirrored by us; use their official sources.
 
 ## Hyper-Align Checkpoints
 
 | Asset | Description | Link |
 |---|---|---|
-| Hyper-Align-Qwen3-8B-qwen3emb0.6b-HIDT-O-HIP-joint2ep | Main Hyper-Align projector/checkpoint trained jointly on Arxiv-HG VC and HEC for 2 epochs. | GitHub Releases: `<release-url>` |
+| Hyper-Align-Qwen3-8B-qwen3emb0.6b-HIDT-O-HIP-joint2ep | Main Hyper-Align projector/checkpoint trained jointly on Arxiv-HG VC and HEC for 2 epochs. | [MengqiLei/hyper-align](https://huggingface.co/MengqiLei/hyper-align) |
 
 Recommended checkpoint location after download:
 
@@ -29,11 +29,11 @@ These models are required only through their official sources. Please follow the
 
 ## HyperAlign-Bench Datasets
 
-Download the full HyperAlign-Bench data bundle from either mirror:
+Download the full HyperAlign-Bench data bundle from Hugging Face:
 
-| Asset | Contents | Google Drive | Baidu Netdisk |
-|---|---|---|---|
-| HyperAlign-Bench full data bundle | Arxiv-HG, Cora-CC, PubMed, DBLP, and IMDB with `processed_data.pt`, `meta.json`, task samples, `qwen3emb_0.6b` embeddings, and overview features. | `<google-drive-url>` | `<baidu-netdisk-url>` (code: `<code>`) |
+| Asset | Contents | Link |
+|---|---|---|
+| HyperAlign-Bench full data bundle | Arxiv-HG, Cora-CC, PubMed, DBLP, and IMDB with `processed_data.pt`, `meta.json`, task samples, `qwen3emb_0.6b` embeddings, and overview features. | [MengqiLei/hyperalign-bench](https://huggingface.co/datasets/MengqiLei/hyperalign-bench) |
 
 After extraction, each dataset directory should contain:
 
